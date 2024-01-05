@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="ViewRecordViewModel"
+            type="com.farmerfirst.growagric.ui.record_keeping.view_records.ViewRecordActivity"/>
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_color"
+        android:layout_marginTop="80dp">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:contentPadding="15dp">
+            <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+                android:id="@+id/spinRecordType"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:contentDescription="@string/app_name"
+                app:smsp_floatingLabelColor="#1976D2"
+                app:smsp_floatingLabelText="Floating Label Text"
+                app:smsp_hint="Select record type"
+                app:smsp_hintColor="#388E3C"
+                app:smsp_isOutlined="true"
+                app:smsp_itemColor="@color/black"
+                app:smsp_itemListColor="@color/black"
+                app:smsp_itemListHintBackgroundColor="#808080"
+                app:smsp_itemListHintColor="#FFFFFF"
+                app:smsp_multilineError="false"
+                app:smsp_outlinedBoxColor="@color/black"
+                app:smsp_outlinedBoxRadius="0dp"
+                app:smsp_selectedItemListColor="#FF5252"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ledgerRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="45dp"
+            android:scrollbars="horizontal"
+            tools:listitem="@layout/list_item_table" />
+    </RelativeLayout>
+</layout>

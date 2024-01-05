@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/table_header_cell_bg"
+            android:layout_marginEnd="2dp"
+            android:layout_weight=".24"
+            android:text="Amount"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="11sp"/>
+        <TextView
+            android:id="@+id/txtRunningBal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="top|end"
+            android:background="@drawable/table_content_cell_bg"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:layout_weight=".76"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/transparent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/table_header_cell_bg"
+            android:layout_marginEnd="2dp"
+            android:layout_weight=".24"
+            android:text="Details"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="11sp"/>
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@drawable/table_content_cell_bg"
+            android:text="@string/app_name"
+            android:layout_weight=".76"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!--TextView
+        android:id="@+id/txtNotes"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/app_name"
+        android:textSize="12sp" /-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/transparent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/table_header_cell_bg"
+            android:layout_marginEnd="2dp"
+            android:layout_weight=".24"
+            android:text="Date"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="11sp"/>
+        <TextView
+            android:id="@+id/txtEntryDate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@drawable/table_content_cell_bg"
+            android:text="@string/app_name"
+            android:layout_weight=".76"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/transparent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/txtTransactionID"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="top"
+            android:layout_weight=".76"
+            android:textSize="12sp" />
+        <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@drawable/ic_trash128x128"
+            android:contentDescription="@string/app_name"
+            android:backgroundTint="@color/colorRed" />
+    </LinearLayout>
+
+</LinearLayout>

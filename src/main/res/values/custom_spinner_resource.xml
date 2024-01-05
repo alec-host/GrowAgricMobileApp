@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genderItems">
+        <item />
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string-array name="maritalStatusItems">
+        <item />
+        <item>Divorced</item>
+        <item>Married</item>
+        <item>Single</item>
+    </string-array>
+    <string-array name="isInsured">
+        <item/>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="chickSupplier">
+        <item/>
+        <item>Kenchic</item>
+        <item>Biyinzika</item>
+        <item>Isinya</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="feedSupplier">
+        <item/>
+        <item>Faida feeds</item>
+        <item>Suguna</item>
+        <item>Unga</item>
+        <item>Isinya</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="feedType">
+        <item/>
+        <item>Starter</item>
+        <item>Grower</item>
+        <item>Finisher</item>
+    </string-array>
+    <string-array name="medicineType">
+        <item/>
+        <item>Vaccination</item>
+        <item>Dewormer/Boosters</item>
+    </string-array>
+    <string-array name="broodingItems">
+        <item/>
+        <item>Gas</item>
+        <item>Charcoal</item>
+        <item>Wood shavings</item>
+        <item>Electricity</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="diagnosisItems">
+        <item/>
+        <item>Coccidiosis</item>
+        <item>Fowl cholera</item>
+        <item>Fowl typhoid</item>
+        <item>Marek disease</item>
+        <item>New castle disease</item>
+        <item>Gumboro</item>
+        <item>Fowl pox</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="salesItems">
+        <item/>
+        <item>Chicken</item>
+        <item>Eggs</item>
+        <item>Equipment</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="recordTypeItems">
+        <item/>
+        <item>Chicken input</item>
+        <item>Brooding input</item>
+        <item>Feeds input</item>
+        <item>Labour records</item>
+        <item>Medicine records</item>
+        <item>Sales records</item>
+        <item>Income records</item>
+        <item>Expense records</item>
+    </string-array>
+    <string-array name="levelOfEducationItems">
+        <item />
+        <item>Primary</item>
+        <item>Secondary</item>
+        <item>College</item>
+        <item>University</item>
+        <item>Post graduate</item>
+    </string-array>
+    <string-array name="farmedItems">
+        <item />
+        <item>Broilers</item>
+        <item>Layers</item>
+    </string-array>
+    <string-array name="countyKe">
+        <item />
+        <item>Nairobi</item>
+        <item>Kiambu</item>
+        <item>Murang\'a</item>
+        <item>Machakos</item>
+        <item>Kajiado</item>
+        <item>Nakuru</item>
+        <item>Nyandarua</item>
+        <item>Nyeri</item>
+        <item>Kirinyaga</item>
+        <item>Embu</item>
+        <item>Meru</item>
+        <item>Mombasa</item>
+        <item>Kwale</item>
+        <item>Kilifi</item>
+        <item>Tharaka Nithi</item>
+        <item>Kakamega</item>
+        <item>Vihiga</item>
+        <item>Bungoma</item>
+        <item>Busia</item>
+        <item>Siaya</item>
+        <item>Kisumu</item>
+        <item>Nyamira</item>
+        <item>Kisii</item>
+        <item>Migori</item>
+        <item>Homa Bay</item>
+        <item>Bomet</item>
+        <item>Kericho</item>
+        <item>Narok</item>
+        <item>Laikipia</item>
+        <item>Baringo</item>
+        <item>Nandi</item>
+        <item>Elgeyo Marakwet</item>
+        <item>Uasin Gishu</item>
+        <item>Trans Nzoia</item>
+        <item>Samburu</item>
+        <item>West Pokot</item>
+        <item>Turkana</item>
+        <item>Makueni</item>
+        <item>Kitui</item>
+        <item>Isiolo</item>
+        <item>Marsabit</item>
+        <item>Mandera</item>
+        <item>Wajir</item>
+        <item>Garissa</item>
+        <item>Taita Taveta</item>
+        <item>Lamu</item>
+    </string-array>
+    <string-array name="subCountyKe">
+        <item/>
+        <item/>
+    </string-array>
+    <string-array name="wardKe">
+        <item/>
+        <item/>
+    </string-array>
+</resources>

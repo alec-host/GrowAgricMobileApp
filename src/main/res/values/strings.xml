@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">GrowAgric</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Enter phone i.e. 0712345678</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_confirm_password_hint">Confirm Password</string>
+    <string name="signup_login_hint">Already have an Account? <u><b>Login</b></u></string>
+    <string name="login_signup_hint">Don\'t have an Account? <u><b>Register</b></u></string>
+    <string name="login_first_name_hint">First Name</string>
+    <string name="login_last_name_hint">Last Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_account">Account</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="edit_text_phone">Enter phone i.e. 0712345678</string>
+    <string name="edit_text_password">Password</string>
+    <string name="edit_profile_id_number">ID Number</string>
+    <string name="email">Email (optional)</string>
+    <string name="age">Age</string>
+    <string name="save">Save</string>
+    <string name="farm_no_of_years_farming">Number of years farming</string>
+    <string name="farm_no_of_employees">Number of employees</string>
+    <string name="farm_house_capacity">Capacity of a chicken house</string>
+    <string name="farm_insurer_name">Insurer name</string>
+    <string name="farm_topic_add_farm">Add FARM</string>
+    <string name="button_submit">Submit</string>
+    <string name="finance_chick_raised">Number of chicks you are raising now?</string>
+    <string name="finance_mortality_rate">Average mortality rate (%)</string>
+    <string name="finance_when_is_needed">Date when finance is needed?</string>
+    <string name="finance_total_chick_cost">Total cost of chicks</string>
+    <string name="finance_total_brooding_cost">Total brooding cost</string>
+    <string name="finance_medicine_and_vaccine_cost">Medicine and vaccine cost</string>
+    <string name="finance_cost_breakdown">Total cost breakdown</string>
+    <string name="finance_total_cost_of_feeds">Total cost of feeds</string>
+    <string name="finance_topic">Finance Application</string>
+    <string name="profile_edit_profile">Edit profile</string>
+    <string name="ga_confirm">Confirm</string>
+    <string name="ga_verify_code">Enter the verification code</string>
+    <string name="lack_of_market">Lack of market</string>
+    <string name="lack_of_training">Lack of training</string>
+    <string name="lack_of_finance">Lack of finance</string>
+    <string name="diseases_impacting_mortality_rate">Diseases impacting mortality rate</string>
+    <string name="other">Other</string>
+    <string name="farm_other_challenges">Other challenges</string>
+    <string name="visit_no">No</string>
+    <string name="visit_yes">Yes</string>
+    <string name="visit_chicken_fit_in_house">How many chickens can fit in current house?</string>
+    <string name="visit_has_previous_record">Does the farmer have records from previous farming?</string>
+    <string name="visit_date">Date of the visit</string>
+    <string name="next_visit_date">Date of the next visit</string>
+    <string name="visit_farm_history">View farm visit history</string>
+    <string name="visit_search_farmer">Search Farmer</string>
+    <string name="visit_chicken_finance_for">How many chickens should we finance the farmer for?</string>
+    <string name="visit_finance_seeking">How much financing is the farmer seeking?</string>
+    <string name="visit_material_used">Specify material used to build the chicken house</string>
+    <string name="visit_name_insurance_provider">Indicate the insurer</string>
+    <string name="visit_cic_form_filled">Has the farmer filled in the CIC Insurance form correctly?</string>
+    <string name="visit_stamp_vet_report">Has the farmer obtained a stamped Vet report with the Vet\'s registration Number?</string>
+    <string name="visit_obtain_stamped_vet_report">Please obtain a stamped Vet report. It is required.?</string>
+    <string name="visit_take_copy_id_pin_cert">Can you take copies of the farmer\'s ID, PIN Cert?</string>
+    <string name="visit_postal">Farmer postal BOX</string>
+    <string name="visit_keeps_layers">Does the farmer keep layers?</string>
+    <string name="visit_has_buyers">Does have buyers?</string>
+    <string name="visit_has_invoice_as_proof">Have you seen proof that the farmer has buyers? (Invoices, payments, met the buyer, etc)</string>
+    <string name="visit_upload_proof">Upload copies and photos of proof of buyers</string>
+    <string name="visit_other_animals">Other animal kept in the farm</string>
+    <string name="visit_has_existing_insurance">Does the farmer have any existing insurance?</string>
+    <string name="visit_material_chicken_house_is_made_of">What material is the chicken house made of?</string>
+    <string name="visit_taken_photo_records">Have you taken copies/photos of the records?</string>
+    <string name="visit_cows">Cows</string>
+    <string name="visit_goats">Goats</string>
+    <string name="visit_pigs">Pigs</string>
+    <string name="visit_kienyeji_chicken">Kienyeji chicken</string>
+    <string name="visit_stone">Stone</string>
+    <string name="visit_mabati">Mabati</string>
+    <string name="visit_wire_mesh">Wire mesh</string>
+    <string name="visit_other">Other</string>
+    <string name="visit_not_acceptable">Not acceptable</string>
+    <string name="visit_insurance_evidence_receipts">Have you seen evidence of existing insurance (Policy document, Receipts)</string>
+    <string name="visit_date_farmer_can_start">Date farmer can start farming with us?</string>
+    <string name="visit_which_animal_kept_farm">Which other animals are kept on the farm?</string>
+    <string name="choose_file">Choose File</string>
+    <string name="visit2_farmers_advice">What advice did you give the farmer?</string>
+    <string name="visit2_chick_delivery_date">How many chicks died on the day of delivery?</string>
+    <string name="visit2_extra_chicks_received">How many extra chicks did the farmer receive?</string>
+    <string name="visit2_chick_gained_weight">Have the chicken gained the necessary required weight?</string>
+    <string name="visit2_type_of_phone">What kind of phone does the farmer use?</string>
+    <string name="visit2_no_of_childrenUnder18">Number of children under the age of 18?</string>
+    <string name="visit2_no_of_people_live_in_house">How many people live in the house?</string>
+    <string name="visit2_no_chicks_financed">How many chicken have we financed?</string>
+    <string name="visit2_no_people_work">How many people work at the farm?</string>
+    <string name="visit2_smart_phone">Smart phone</string>
+    <string name="visit2_no_of_children_in_family">Number of children in the family?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+    <string name="other_platform">Other platform</string>
+    <string name="close">Close</string>
+    <string name="read_tcs"><u>Read Terms and Conditions</u></string>
+    <string name="accept_tcs">Read &amp; Accept <u><b>Terms of Service</b></u></string>
+    <string name="chat_message">Type your message…</string>
+    <string name="chat_send">Send</string>
+    <string name="title_message">message</string>
+    <string name="turkey">Turkey</string>
+    <string name="sheep">Sheep</string>
+    <string name="beef">Beef</string>
+    <string name="bees">Bees</string>
+    <string name="ducks">Ducks</string>
+    <string name="rabbits">Rabbits</string>
+    <string name="fish">Fish</string>
+    <string name="snail">Snail</string>
+    <string name="goat">Goat</string>
+    <string name="dairy">Dairy</string>
+    <string name="dogs">Dogs</string>
+    <string name="kienyeji_chicken">Kienyeji chicken</string>
+    <string name="checkmushroom">checkMushroom</string>
+    <string name="mushrooms">Mushrooms</string>
+    <string name="join_our_waiting_list">Join our waiting list</string>
+    <string name="checklist_that_you_farm">From the list below please check other items that you farm.</string>
+    <string name="join">Join</string>
+    <string name="enter_brooding_description">Enter brooding description</string>
+    <string name="date_you_brooded">Brooding date</string>
+    <string name="add_quantity">Add quantity</string>
+    <string name="amount_spent">Amount spent</string>
+    <string name="notes">Notes</string>
+    <string name="data_inputs">Data Inputs</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="view_records">View Records</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="empty">Empty</string>
+    <string name="send_code">Send code</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="farmerfirst">#farmerfirst</string>
+    <array name="farm_steps">
+        <item>Location</item>
+        <item>Farm</item>
+        <item>Insurance</item>
+        <item>Challenges</item>
+    </array>
+    <array name="finance_steps">
+        <item>Farm</item>
+        <item>Finance</item>
+        <item>Feeds</item>
+        <item>Price</item>
+    </array>
+    <array name="type_farm_visit">
+        <item />
+        <item>Farm visit before financing</item>
+        <item>Farm visit after financing</item>
+        <item>Return visit after financing</item>
+    </array>
+    <array name="hear_about_us_platform">
+        <item />
+        <item>Referral/Person</item>
+        <item>Facebook</item>
+        <item>Instagram</item>
+        <item>LinkedIn</item>
+        <item>Twitter</item>
+        <item>Other</item>
+    </array>
+</resources>
