@@ -1,6 +1,6 @@
 # GROWAGRIC MOBILE APP
 
-The mobile application is development using Java.
+The mobile application is development using Android Java.
 
 
 
