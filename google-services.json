@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "1084260735536",
-    "project_id": "growagric-fadfe",
-    "storage_bucket": "growagric-fadfe.appspot.com"
+    "project_number": "10-----------36",
+    "project_id": "g-------------e",
+    "storage_bucket": "g-----------------.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1084260735536:android:6a0b8c99303e588a12abf5",
+        "mobilesdk_app_id": "1:108426--------------------------------5",
         "android_client_info": {
           "package_name": "com.farmerfirst.growagric"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1084260735536-9fajsdmuakqqi3spofkf9e8qlgd4p377.apps.googleusercontent.com",
+          "client_id": "10------------------------------------77.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.farmerfirst.growagric",
-            "certificate_hash": "0fdba0437af956a5175b1560c09d4278fe582ec3"
+            "certificate_hash": "0fxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxc3"
           }
         },
         {
-          "client_id": "1084260735536-jkdjbf6mlturvi7pg9mk651un2f3ftlk.apps.googleusercontent.com",
+          "client_id": "10xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxtlk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyADE_gLtF8WWJzuFkNWhWp1oti_5o58iWo"
+          "current_key": "AI--------------------------8iWo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1084260735536-jkdjbf6mlturvi7pg9mk651un2f3ftlk.apps.googleusercontent.com",
+              "client_id": "10oooooooooooooooooooooooooooooooooooooooolk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
